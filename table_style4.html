@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> July - table_style4.html </title>
+        <style>
+            h2 {
+              color: #F07D7D;
+              text-align: center;
+            }
+            table {
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 5px;
+                text-align: center;
+            }
+            th {
+                background-color: LIGHTGRAY;
+            }
+            .lat {
+                color: DARKTURQUOISE;
+            }
+            .lon {
+                color: ROSYBROWN;
+            }
+            #hokkaido {
+                color: #32CD32;
+            }
+            #kyushu {
+                color: #FF2400;
+            }
+        </style>
+    </head>
+    <body>
+        <h2> Farthest Stations of Japan Railway </h2>
+        <p> This shows information of four farthest stations of JR operations.</p>
+        <table>
+            <tr>
+                <th> Name </th>
+                <th> Location </th>
+                <th> Coordinates </th>
+                <th> Operated by </th>
+                <th> Line(s) </th>
+            </tr>
+            <tr>
+                <td> Wakkanai Station </td>
+                <td> 3-6 Chuo, Wakkanai-shi, Hokkaido, Japan </td>
+                <td>
+                    <span class="lat"> 45°25′1″.3N </span>
+                    <span class="lon"> 141°40′37″.2E </span>
+                </td>
+                <td> <span id="hokkaido"> JR Hokkaido </span> </td>
+                <td> Sōya Main Line </td>
+            </tr>
+            <tr>
+                <td> Higashi-Nemuro Station </td>
+                <td> 4 Chuo, Nemuro-shi, Hokkaido, Japan </td>
+                <td>
+                    <span class="lat"> 43°19′25″.2N </span>
+                    <span class="lon"> 145°35′50″.0E </span>
+                </td>
+                <td> <span id="hokkaido"> JR Hokkaido </span> </td>
+                <td> Nemuro Main Line </td>
+            </tr>
+            <tr>
+                <td> Nishi-Ōyama Station </td>
+                <td> Yamakawa Ōyama, Ibusuki, Kagoshima, Japan </td>
+                <td>
+                    <span class="lat"> 31°11′25″.1N </span>
+                    <span class="lon"> 130°34′35″.3E </span>
+                </td>
+                <td> <span id="kyushu"> JR Kyushu </span> </td>
+                <td> Ibusuki Makurazaki Line </td>
+            </tr>
+            <tr>
+                <td> Sasebo Station </td>
+                <td> Miura-chō, Sasebo-shi, Nagasaki-ken, Japan </td>
+                <td>
+                    <span class="lat"> 33°9′49″.9N </span>
+                    <span class="lon"> 129°43′32″.6E </span>
+                </td>
+                <td> <span id="kyushu"> JR Kyushu </span> </td>
+                <td> Sasebo Line </td>
+            </tr>
+        </table>
+    </body>
+</html>
